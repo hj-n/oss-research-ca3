@@ -1,11 +1,11 @@
 <div class="part-title">
-    <h1>Marcel’s Braindump</h1>
-    <p>A Fancy Subtitle</p>
+    <h1>Marcel’s Section</h1>
+    <p>A Braindump</p>
 </div>
 
 ---
 
-# Why open source your research software?
+# Why publish your research software code?
 
 - **Archiving and reproducibility**
     - Research systems and prototypes often have a lifespan of only a few months
@@ -16,13 +16,14 @@
 
 ---
 
-# Where to open source your research software?
+# Where to publish your research software?
 
 - **Supplementary Material of the Paper**
     - For fixed snapshots of the code
     - But might be overlooked by researchers
 - **GitHub, GitLab, Bitbucket, etc.**
     - Especially useful for sharing code that evolves over time
+    - Link back to your paper(s)
 
 ---
 
@@ -54,3 +55,28 @@
 - Open-source code is not always a one-time effort
 - Some projects are reused by other researchers and require maintenance
 - Make clear in the documentation whether the code is actively maintained
+
+---
+
+# Marcel's Experiences So Far
+
+- 2021 — Codestrates v2 (with CAVI)
+- 2022 — Varv (with CAVI)
+- 2023 — Mirrorverse
+- 2024 — DashSpace
+- 2025 — Spatialstrates
+- 2026 — Stund
+
+<br>
+(But there were also various prototypes that are not published.)
+
+---
+
+# Marcel's Challenges and Learnings
+
+- Good documentation ~~is~~ was time-consuming
+    - With AI it got faster and more comprehensive, but not necessarily better
+- Licensing can be complex
+    - It also feels a bit scary as law is involved
+- If software stays alive for a while, invest into a publishing workflow
+    - This was especially painful with many Webstrates projects that do not live in a classic version control system
