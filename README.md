@@ -35,7 +35,7 @@ Previews use port 3030 by default. To run alongside the combined deck, use `PORT
 | --- | --- | --- |
 | Anton | `parts/anton.md` | Title + content template |
 | Marcel | `parts/marcel.md` | Title + content template |
-| Hyeon | `parts/hyeon.md` | Title + ZADU/DR introduction + GitHub capture + seven source slides |
+| Hyeon | `parts/hyeon.md` | Title + ZADU/DR introduction + GitHub capture + source slides + maintenance and contribution lessons |
 | Arvind | `parts/arvind.md` | Title + content template |
 
 `slides.md` sets the shared opening and speaker order. The opening is: cover → “Software Carries Research Knowledge” → “Research Software We Build On” (Vega-Lite, Webstrates, D3) → Marcel's “Why publish” and “Where to publish” → “What Happens After We Publish the Code?” → “Why Bother Building and Maintaining It?”. The four shared framing slides live in `parts/introduction.md`. Speaker sections then follow in the order Anton → Marcel → Hyeon → Arvind.

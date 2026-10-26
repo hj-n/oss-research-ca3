@@ -119,6 +119,37 @@ The comparison ranges are reproduced as supplied; do not imply annual totals for
 
 ---
 
+# Open Source Is Not Free
+
+- More users bring more maintenance work.
+- Maintenance competes with new research.
+- Design for a future without the original maintainer.
+
+<!--
+Source: supplied manuscript, Democratizing Dimensionality Reduction Evaluation
+with ZADU, section 5.2 (pages 7–8).
+Maintenance includes documentation, backward compatibility, dependency changes,
+and different hardware environments. Authors have limited maintenance capacity.
+-->
+
+---
+
+# Contributions Keep Us Going
+
+- Contributions show that someone finds the software worth improving.
+- Share useful fixes upstream.
+- Distribute knowledge and ownership beyond the original authors.
+- Recognize contributors who improved that version.
+
+<!--
+Source: supplied manuscript, sections 5.3 and 5.5 (page 8).
+Contributions provide motivation as well as practical help. In the last bullet,
+“that version” refers to the software release being used: acknowledge the people
+whose improvements are included in that release.
+-->
+
+---
+
 # Keep Pushing.
 
 1. Find a real problem.
