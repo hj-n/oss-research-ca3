@@ -14,6 +14,8 @@ npm ci
 npm run dev
 ```
 
+Published slides: https://hj-n.github.io/oss-research-ca3/
+
 Open http://localhost:3030. Arrow keys move through the slides; `p` opens presenter mode. Speaker notes stay in Markdown comments.
 
 Preview only your own subdeck, with the same theme and styles:
@@ -81,7 +83,7 @@ git commit -m "Update Hyeon's slides"
 git push -u origin slides/hyeon
 ```
 
-Open a pull request into `main`. Use your own name and path in the commands. Separate files minimize merge conflicts. PRs automatically build the full deck; download `oss-for-research-preview` from the workflow run to inspect the merged result. Extract the artifact and serve it over HTTP (for example, `npx vite preview --outDir <extracted-folder>`); it is a website, so do not open `index.html` directly. A failed build should be fixed before merging. Branch protection / required reviews can be configured in GitHub by the repository owner.
+Open a pull request into `main`. Use your own name and path in the commands. Separate files minimize merge conflicts. PRs automatically build the full deck; the build artifact is available as `github-pages` in the workflow run. Every push to `main` automatically deploys the combined deck to https://hj-n.github.io/oss-research-ca3/. Pull requests build without deploying. A failed build should be fixed before merging. Branch protection / required reviews can be configured in GitHub by the repository owner.
 
 ## Build and export
 
@@ -92,7 +94,7 @@ npx playwright install chromium  # First PDF export only
 npm run export      # output/oss-for-research.pdf
 ```
 
-For hosting under a repository subpath, use `npm run build -- --base /<repository-name>/`. This project does not publish anything automatically.
+For hosting under a repository subpath, use `npm run build -- --base /<repository-name>/`. The GitHub Actions workflow builds with `/oss-research-ca3/` as the base path and deploys pushes to `main` automatically. It runs no tests or PDF exports.
 
 Arial must be installed on the presenting/exporting computer. It is available on this Mac; the font is not redistributed in Git. Other machines fall back to a system sans-serif until Arial is installed.
 
