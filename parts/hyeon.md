@@ -1,12 +1,12 @@
 <div class="part-title with-art">
-<h1>Novelty comes with time</h1>
+<h1>Novelty Comes with Time</h1>
 <p>Hyeon · ZADU</p>
 <img src="/hyeon/zadu-story.jpg" alt="The story of ZADU: a short paper grows from a seedling into a tree through new metrics, contributors, fixes, tests, implementations, and adoption." />
 </div>
 
 ---
 
-# What is ZADU?
+# What Is ZADU?
 
 - **Dimensionality reduction (DR):** mapping high-dimensional data into a 2D or 3D embedding.
 - **DR evaluation metrics:** measuring distortions in neighborhoods, distances, or clusters.
@@ -39,9 +39,9 @@ Examples include trustworthiness/continuity and stress.
 
 <p class="speaker">Hyeon · ZADU</p>
 
-# Open source as research
+# Open Source as Research
 
-- You don't have to be novel enough at first.
+- You don’t have to be novel enough at first.
 - A recurring problem can be a useful starting point.
 
 <!--
@@ -51,7 +51,7 @@ The second bullet introduces the story developed on the next slide.
 
 ---
 
-# It started as a script.
+# It Started as a Script.
 
 <p class="context">2021 · Eight metrics</p>
 
@@ -66,7 +66,7 @@ Source: supplied PDF, slide 2. DR = dimensionality reduction.
 
 ---
 
-# Useful—but novel enough?
+# Useful—but Novel Enough?
 
 <p class="context">2023 · IEEE VIS short paper</p>
 
@@ -79,7 +79,7 @@ Source: supplied PDF, slide 2. DR = dimensionality reduction.
 
 ---
 
-# The paper stopped. The software didn't.
+# The Paper Stopped. The Software Didn’t.
 
 <p class="context">2023–2026 · Growth beyond the publication</p>
 
@@ -96,7 +96,7 @@ The comparison ranges are reproduced as supplied; do not imply annual totals for
 
 ---
 
-# A tool became research infrastructure.
+# A Tool Became Research Infrastructure.
 
 <p class="context">Research output → research input</p>
 
@@ -109,7 +109,7 @@ The comparison ranges are reproduced as supplied; do not imply annual totals for
 
 ---
 
-# More users. More responsibility.
+# More Users. More Responsibility.
 
 <p class="context">Real contributions—new metrics, fixes, and tests</p>
 
@@ -119,7 +119,7 @@ The comparison ranges are reproduced as supplied; do not imply annual totals for
 
 ---
 
-# Keep pushing.
+# Keep Pushing.
 
 1. Find a real problem.
 2. Make something useful.

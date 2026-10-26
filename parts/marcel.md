@@ -1,5 +1,5 @@
 <div class="part-title">
-<h1>Marcel's talk title</h1>
+<h1>Marcel’s Talk Title</h1>
 <p>Marcel</p>
 </div>
 
@@ -7,7 +7,7 @@
 
 <p class="speaker">Marcel</p>
 
-# Marcel's part
+# Marcel’s Part
 
 - Research problem
 - Open-source project or example
@@ -16,7 +16,7 @@
 <p class="note">Draft placeholder · replace with your content</p>
 
 <!--
-This is an editing scaffold, not an account of Marcel's research.
+This is an editing scaffold, not an account of Marcel’s research.
 Add a new slide by inserting a line containing only three hyphens (---).
 Keep shared styles in styles/index.css.
 -->
