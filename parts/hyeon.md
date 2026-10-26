@@ -51,16 +51,11 @@ Source: supplied PDF, slide 2. DR = dimensionality reduction.
 
 <p class="context">2023–2026 · Growth beyond the publication</p>
 
-| Year | Development | Downloads* |
-| --- | --- | ---: |
-| 2021 | One script · 8 metrics | — |
-| 2023 | VIS short paper · 17 metrics | 1.5K |
-| 2024 | First external metric PR | 2.6K |
-| 2025 | Tests and EuroVis tutorial | 6.5K |
-| 2026 | 22 metrics · acceleration | — |
+<ZaduGrowth />
 
-<p class="metrics"><strong>17 → 22</strong> metrics &nbsp; · &nbsp; <strong>4 → 9</strong> contributors &nbsp; · &nbsp; <strong>0 → 45</strong> citations</p>
-<p class="source">*Excluding mirrors. Figures reproduced from the supplied presentation.</p>
+<!--
+The timeline, download bars, and growth figures recreate the original PDF graphic.
+-->
 
 <!--
 Source: supplied PDF, slide 4. These are source-deck figures, not live counts.
@@ -84,14 +79,9 @@ The comparison ranges are reproduced as supplied; do not imply annual totals for
 
 # More users. More responsibility.
 
-<p class="context">New metrics, fixes, and tests</p>
+<p class="context">Real contributions—new metrics, fixes, and tests</p>
 
-- #11: New Stress metrics
-- #14: Refactoring and tests
-- #15: Correcting metric behavior
-- #17: Class Angular Distortion Index
-
-<p class="note">Scientific responsibility: test edge cases, version releases, invite contributions.</p>
+<ZaduContributions />
 
 <!-- Source: supplied PDF, slide 6. PR numbers are source references, not links. -->
 
