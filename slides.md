@@ -3,7 +3,7 @@ theme: default
 title: Open-Source Software for Research
 info: |
   CA3 Retreat — Anton, Marcel, Hyeon, and Arvind
-class: cover
+src: ./parts/marcel.md#2-3
 layout: default
 colorSchema: light
 aspectRatio: 16/9
@@ -18,6 +18,10 @@ transition: none
 mdc: true
 ---
 
+---
+class: cover
+---
+
 <img class="cover-logo" src="/ca3-logo.png" alt="Center for Anytime & Anywhere Analytics" />
 
 # Open-Source Software<br>for Research
@@ -30,7 +34,7 @@ src: ./parts/anton.md
 ---
 
 ---
-src: ./parts/marcel.md
+src: ./parts/marcel.md#1,4-
 ---
 
 ---

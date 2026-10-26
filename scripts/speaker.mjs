@@ -7,7 +7,7 @@ if (!['anton', 'marcel', 'hyeon', 'arvind'].includes(speaker)) {
 }
 // Reuse the master configuration so individual decks share the exact design.
 const master = await readFile(new URL('../slides.md', import.meta.url), 'utf8')
-const head = master.match(/^---\n([\s\S]*?)\n---/)[1].replace('class: cover\n', '')
+const head = master.match(/^---\n([\s\S]*?)\n---/)[1].replace('class: cover\n', '').replace(/^src:.*\n/gm, '')
 const content = await readFile(new URL(`../parts/${speaker}.md`, import.meta.url), 'utf8')
 const entry = `.speaker-${speaker}.md`
 await writeFile(entry, `---\n${head}\n---\n\n${content}`)
