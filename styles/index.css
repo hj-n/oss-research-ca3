@@ -1,10 +1,10 @@
 /* Shared by the combined deck and every speaker preview. */
-:root { font-family: Arial, sans-serif; color: #181818; background: #fff; }
+:root { font-family: Inter, sans-serif; color: #181818; background: #fff; }
 .slidev-layout {
   padding: 48px 58px 54px;
   background: #fff;
   color: #181818;
-  font-family: Arial, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 31px;
   line-height: 1.42;
 }

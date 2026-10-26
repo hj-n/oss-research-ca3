@@ -9,9 +9,9 @@ colorSchema: light
 aspectRatio: 16/9
 canvasWidth: 1280
 fonts:
-  sans: Arial
-  local: Arial
-  provider: none
+  sans: Inter
+  weights: '400,600,700'
+  provider: google
 drawings:
   enabled: false
 transition: none

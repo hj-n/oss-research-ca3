@@ -34,7 +34,7 @@ const downloads = [{ year: '2023', value: 1.5 }, { year: '2024', value: 2.6 }, {
 const stats = [{ value: '17 → 22', label: 'metrics' }, { value: '4 → 9', label: 'contributors' }, { value: '0 → 45', label: 'citations' }]
 </script>
 <style scoped>
-.zadu-growth { width: 100%; height: auto; display: block; overflow: visible; font-family: Arial, sans-serif; fill: #181818; }
+.zadu-growth { width: 100%; height: auto; display: block; overflow: visible; font-family: Inter, sans-serif; fill: #181818; }
 .year, .value { font-size: 23px; font-weight: 700; }
 .milestone { font-size: 20px; font-weight: 700; }
 .detail { font-size: 19px; fill: #555; }

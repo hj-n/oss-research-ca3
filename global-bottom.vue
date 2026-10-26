@@ -4,5 +4,5 @@
   </div>
 </template>
 <style>
-.page-number { position: absolute; bottom: 22px; right: 30px; font: 17px Arial, sans-serif; color: #888; }
+.page-number { position: absolute; bottom: 22px; right: 30px; font: 17px Inter, sans-serif; color: #888; }
 </style>

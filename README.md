@@ -2,7 +2,7 @@
 
 CA3 retreat · Anton, Marcel, Hyeon, and Arvind
 
-A Slidev presentation with one Markdown subdeck per speaker and one shared design: Arial, white background, bullet points, and compact margins. Only the CA3 logo is used.
+A Slidev presentation with one Markdown subdeck per speaker and one shared design: Inter, white background, bullet points, and compact margins. Only the CA3 logo is used.
 
 ## Start
 
@@ -96,7 +96,7 @@ npm run export      # output/oss-for-research.pdf
 
 For hosting under a repository subpath, use `npm run build -- --base /<repository-name>/`. The GitHub Actions workflow builds with `/oss-research-ca3/` as the base path and deploys pushes to `main` automatically. It runs no tests or PDF exports.
 
-Arial must be installed on the presenting/exporting computer. It is available on this Mac; the font is not redistributed in Git. Other machines fall back to a system sans-serif until Arial is installed.
+Inter is loaded from Google Fonts in weights 400, 600, and 700. Presenting and exporting require an internet connection to load the font, unless it is installed locally or already cached. A generic sans-serif is used as a fallback.
 
 ## Sources
 
