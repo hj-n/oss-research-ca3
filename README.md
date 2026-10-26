@@ -99,5 +99,6 @@ Arial must be installed on the presenting/exporting computer. It is available on
 ## Sources
 
 - Hyeon's content: `CA3_Open_Source_as_Research_ZADU_minimal.pdf`, provided by Hyeon. All seven slides are represented. The editable Vue components in `components/` preserve its timeline, download chart, and contribution/responsibility layout. Counts and PR references reproduce that source and are not live repository statistics. The source PDF is not redistributed in this repo.
+- Hyeon title illustration: original embedded JPEG extracted unchanged from page 1 of the supplied ZADU PDF, saved as `public/hyeon/zadu-story.jpg`.
 - CA3 logo: copied from the existing local `/Users/hj/Downloads/ca3_logo.png`.
 - Slidev: https://sli.dev/ — [importing slides](https://sli.dev/features/importing-slides), [hosting](https://sli.dev/guide/hosting).

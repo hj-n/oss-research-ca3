@@ -1,6 +1,7 @@
-<div class="part-title">
+<div class="part-title with-art">
 <h1>Novelty comes with time</h1>
 <p>Hyeon · ZADU</p>
+<img src="/hyeon/zadu-story.jpg" alt="The story of ZADU: a short paper grows from a seedling into a tree through new metrics, contributors, fixes, tests, implementations, and adoption." />
 </div>
 
 ---
