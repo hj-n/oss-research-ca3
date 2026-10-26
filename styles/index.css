@@ -1,0 +1,39 @@
+/* Shared by the combined deck and every speaker preview. */
+:root { font-family: Arial, sans-serif; color: #181818; background: #fff; }
+.slidev-layout {
+  padding: 48px 58px 54px;
+  background: #fff;
+  color: #181818;
+  font-family: Arial, sans-serif;
+  font-size: 31px;
+  line-height: 1.42;
+}
+.slidev-layout h1 {
+  margin: 0 0 38px;
+  max-width: 1110px;
+  color: #111;
+  font-size: 49px;
+  font-weight: 600;
+  line-height: 1.13;
+  letter-spacing: -1.1px;
+}
+.slidev-layout ul, .slidev-layout ol { padding-left: 1.12em; margin: 0; }
+.slidev-layout li { padding-left: .15em; margin: 0 0 19px; line-height: 1.42; }
+.slidev-layout li::marker { color: #222; }
+.slidev-layout p { margin: 0 0 25px; }
+.slidev-layout strong { font-weight: 700; }
+.slidev-layout .speaker { margin: 0 0 17px; font-size: 22px; color: #606060; }
+.slidev-layout .context { margin: -18px 0 34px; font-size: 25px; color: #666; }
+.slidev-layout .note { margin-top: 32px; font-size: 25px; color: #555; }
+.slidev-layout .source { position: absolute; bottom: 23px; left: 58px; font-size: 16px; color: #777; }
+.slidev-layout.cover { display: flex; flex-direction: column; justify-content: center; }
+.slidev-layout.cover h1 { font-size: 76px; margin-bottom: 28px; letter-spacing: -1.8px; }
+.slidev-layout.cover .event { font-size: 31px; margin-bottom: 16px; color: #555; }
+.slidev-layout.cover .presenters { font-size: 31px; }
+.cover-logo { position: absolute; top: 44px; right: 58px; width: 150px; height: auto; }
+.slidev-layout table { width: 100%; font-size: 27px; margin-top: 8px; border-collapse: collapse; }
+.slidev-layout th, .slidev-layout td { padding: 14px 16px 14px 0; border-bottom: 1px solid #ddd; text-align: left; }
+.slidev-layout th { color: #555; font-weight: 400; font-size: 22px; }
+.slidev-layout .metrics { margin-top: 30px; font-size: 29px; }
+/* The default theme fades paragraphs immediately after headings. */
+.slidev-layout .context, .slidev-layout .event { opacity: 1; }

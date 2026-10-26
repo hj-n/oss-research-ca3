@@ -1,0 +1,21 @@
+{
+  "name": "oss-for-research",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "slidev slides.md --port 3030",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md --output output/oss-for-research.pdf",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "speaker": "node scripts/speaker.mjs"
+  },
+  "devDependencies": {
+    "@slidev/cli": "53.0.0",
+    "@slidev/theme-default": "0.25.0",
+    "playwright-chromium": "^1.56.1"
+  }
+}
