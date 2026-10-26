@@ -1,5 +1,5 @@
 <div class="part-title">
-<h1>Open source as research</h1>
+<h1>Novelty comes with time</h1>
 <p>Hyeon · ZADU</p>
 </div>
 
