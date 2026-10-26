@@ -106,4 +106,4 @@ Inter is loaded from Google Fonts in weights 400, 600, and 700. Presenting and e
 - CA3 logo: copied from the existing local `/Users/hj/Downloads/ca3_logo.png`.
 - Slidev: https://sli.dev/ — [importing slides](https://sli.dev/features/importing-slides), [hosting](https://sli.dev/guide/hosting).
 
-The combined deck opens with Marcel's “Why publish your research software code?” and “Where to publish your research software?” slides before the shared cover. These remain in `parts/marcel.md`; the master imports slides 2–3 first and slides 1, 4 onward in Marcel's section, without duplication.
+The combined deck starts with the shared cover, followed by Marcel's “Why publish your research software code?” and “Where to publish your research software?” slides. These remain in `parts/marcel.md`; the master imports slides 2–3 immediately after the cover and slides 1, 4 onward in Marcel's section, without duplication.
