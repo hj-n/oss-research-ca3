@@ -1,8 +1,8 @@
 /* Shared by the combined deck and every speaker preview. */
-:root { font-family: Inter, sans-serif; color: #181818; background: #fff; }
+:root { font-family: Inter, sans-serif; color: #181818; background: #f5f6f6; }
 .slidev-layout {
   padding: 48px 58px 54px;
-  background: #fff;
+  background: #f5f6f6;
   color: #181818;
   font-family: Inter, sans-serif;
   font-size: 31px;

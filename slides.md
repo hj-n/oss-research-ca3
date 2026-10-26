@@ -1,8 +1,8 @@
 ---
 theme: default
-title: OSS for Research
+title: Open-Source Software for Research
 info: |
-  CA3 retreat — Anton, Marcel, Hyeon, and Arvind
+  CA3 Retreat — Anton, Marcel, Hyeon, and Arvind
 class: cover
 layout: default
 colorSchema: light
@@ -20,9 +20,9 @@ mdc: true
 
 <img class="cover-logo" src="/ca3-logo.png" alt="Center for Anytime & Anywhere Analytics" />
 
-# OSS for Research
+# Open-Source Software<br>for Research
 
-<p class="event">CA3 retreat</p>
+<p class="event">CA3 Retreat</p>
 <p class="presenters">Anton, Marcel, Hyeon, and Arvind</p>
 
 ---
