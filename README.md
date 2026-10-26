@@ -2,7 +2,7 @@
 
 CA3 retreat · Anton, Marcel, Hyeon, and Arvind
 
-A Slidev presentation with one Markdown subdeck per speaker and one shared design: Inter, white background, bullet points, and compact margins. Only the CA3 logo is used.
+A Slidev presentation with one Markdown subdeck per speaker and one shared design: Inter, white background, bullet points, and compact margins. Project figures and screenshots are stored in `public/`.
 
 ## Start
 
@@ -38,7 +38,9 @@ Previews use port 3030 by default. To run alongside the combined deck, use `PORT
 | Hyeon | `parts/hyeon.md` | Title + ZADU/DR introduction + GitHub capture + seven source slides |
 | Arvind | `parts/arvind.md` | Title + content template |
 
-`slides.md` sets the cover and order: Anton → Marcel → Hyeon → Arvind. Each `src` includes every slide in that speaker's file. Add slides inside your own file using a line containing `---`; no edits to the master are needed. The deck contains 17 slides: the shared cover, a title + content template for each of Anton, Marcel, and Arvind, and a title + nine content slides for Hyeon (ZADU/DR background, an actual GitHub screenshot, and the seven source slides). Each subdeck starts with a `part-title` block; replace its talk title and keep your name below it.
+`slides.md` sets the shared opening and speaker order. The opening is: cover → “Software Carries Research Knowledge” → Marcel's “Why publish” and “Where to publish” → “What Happens After We Publish the Code?”. The two shared framing slides live in `parts/introduction.md`. Speaker sections then follow in the order Anton → Marcel → Hyeon → Arvind.
+
+Each `src` includes the selected slides from a speaker's file. Marcel's slides 2–3 appear in the shared opening; his title and slides 4 onward appear in his section. Add slides inside your own file using a line containing `---`. Each subdeck starts with a `part-title` block.
 
 ```md
 # One clear message
@@ -106,4 +108,4 @@ Inter is loaded from Google Fonts in weights 400, 600, and 700. Presenting and e
 - CA3 logo: copied from the existing local `/Users/hj/Downloads/ca3_logo.png`.
 - Slidev: https://sli.dev/ — [importing slides](https://sli.dev/features/importing-slides), [hosting](https://sli.dev/guide/hosting).
 
-The combined deck starts with the shared cover, followed by Marcel's “Why publish your research software code?” and “Where to publish your research software?” slides. These remain in `parts/marcel.md`; the master imports slides 2–3 immediately after the cover and slides 1, 4 onward in Marcel's section, without duplication.
+Marcel's shared “Why publish” and “Where to publish” slides remain in `parts/marcel.md`; the master imports them in the opening and excludes them from his later section, without duplication.
