@@ -31,12 +31,12 @@ Previews use port 3030 by default. To run alongside the combined deck, use `PORT
 
 | Speaker | Edit this file | Current content |
 | --- | --- | --- |
-| Anton | `parts/anton.md` | Explicit placeholder |
-| Marcel | `parts/marcel.md` | Explicit placeholder |
-| Hyeon | `parts/hyeon.md` | Seven slides adapted from the supplied ZADU PDF |
-| Arvind | `parts/arvind.md` | Explicit placeholder |
+| Anton | `parts/anton.md` | Title + content template |
+| Marcel | `parts/marcel.md` | Title + content template |
+| Hyeon | `parts/hyeon.md` | Title + seven slides adapted from the supplied ZADU PDF |
+| Arvind | `parts/arvind.md` | Title + content template |
 
-`slides.md` sets the cover and order: Anton → Marcel → Hyeon → Arvind. Each `src` includes every slide in that speaker's file. Add slides inside your own file using a line containing `---`; no edits to the master are needed. The initial deck contains 11 slides, including the cover and three placeholders.
+`slides.md` sets the cover and order: Anton → Marcel → Hyeon → Arvind. Each `src` includes every slide in that speaker's file. Add slides inside your own file using a line containing `---`; no edits to the master are needed. The deck contains 15 slides: the shared cover, a title + content template for each of Anton, Marcel, and Arvind, and a title + seven content slides for Hyeon. Each subdeck starts with a `part-title` block; replace its talk title and keep your name below it.
 
 ```md
 # One clear message

@@ -1,3 +1,10 @@
+<div class="part-title">
+<h1>Open source as research</h1>
+<p>Hyeon · ZADU</p>
+</div>
+
+---
+
 <p class="speaker">Hyeon · ZADU</p>
 
 # Open source as research

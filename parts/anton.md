@@ -1,3 +1,10 @@
+<div class="part-title">
+<h1>Talk title</h1>
+<p>Anton</p>
+</div>
+
+---
+
 <p class="speaker">Anton</p>
 
 # Anton's part

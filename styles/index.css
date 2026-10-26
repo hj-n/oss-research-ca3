@@ -37,3 +37,8 @@
 .slidev-layout .metrics { margin-top: 30px; font-size: 29px; }
 /* The default theme fades paragraphs immediately after headings. */
 .slidev-layout .context, .slidev-layout .event { opacity: 1; }
+
+/* The opening title slide of each speaker's subdeck. */
+.slidev-layout .part-title { display: flex; flex-direction: column; justify-content: center; height: 100%; }
+.slidev-layout .part-title h1 { margin-bottom: 24px; font-size: 64px; line-height: 1.15; }
+.slidev-layout .part-title p { margin: 0; color: #555; font-size: 31px; opacity: 1; }
