@@ -38,7 +38,7 @@ Previews use port 3030 by default. To run alongside the combined deck, use `PORT
 | Hyeon | `parts/hyeon.md` | Title + ZADU/DR introduction + GitHub capture + seven source slides |
 | Arvind | `parts/arvind.md` | Title + content template |
 
-`slides.md` sets the shared opening and speaker order. The opening is: cover → “Software Carries Research Knowledge” → Marcel's “Why publish” and “Where to publish” → “What Happens After We Publish the Code?” → “Why Bother Building and Maintaining It?”. The three shared framing slides live in `parts/introduction.md`. Speaker sections then follow in the order Anton → Marcel → Hyeon → Arvind.
+`slides.md` sets the shared opening and speaker order. The opening is: cover → “Software Carries Research Knowledge” → “Research Software We Build On” (Vega-Lite, Webstrates, D3) → Marcel's “Why publish” and “Where to publish” → “What Happens After We Publish the Code?” → “Why Bother Building and Maintaining It?”. The four shared framing slides live in `parts/introduction.md`. Speaker sections then follow in the order Anton → Marcel → Hyeon → Arvind.
 
 Each `src` includes the selected slides from a speaker's file. Marcel's slides 2–3 appear in the shared opening; his title and slides 4 onward appear in his section. Add slides inside your own file using a line containing `---`. Each subdeck starts with a `part-title` block.
 
@@ -109,3 +109,5 @@ Inter is loaded from Google Fonts in weights 400, 600, and 700. Presenting and e
 - Slidev: https://sli.dev/ — [importing slides](https://sli.dev/features/importing-slides), [hosting](https://sli.dev/guide/hosting).
 
 Marcel's shared “Why publish” and “Where to publish” slides remain in `parts/marcel.md`; the master imports them in the opening and excludes them from his later section, without duplication.
+
+The project illustrations in `public/examples/` come from the official research pages: [Vega-Lite](https://vis.mit.edu/pubs/vega-lite/), [Webstrates](https://webstrates.net/), and [D3](https://idl.uw.edu/papers/d3). They are shown unchanged in `components/ResearchSoftwareExamples.vue`; the Webstrates example is animated.

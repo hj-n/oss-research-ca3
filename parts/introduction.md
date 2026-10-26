@@ -12,6 +12,23 @@ https://chi2026.acm.org/guide-to-a-successful-submission/
 
 ---
 
+# Research Software We Build On
+
+<ResearchSoftwareExamples />
+
+<p class="note">Research contributions can become tools that other researchers build on.</p>
+
+<!--
+Official project descriptions, research venues, and original illustrations:
+Vega-Lite: https://vis.mit.edu/pubs/vega-lite/
+Webstrates: https://webstrates.net/
+D3: https://idl.uw.edu/papers/d3
+Images are reproduced unchanged from those project pages, including the
+Webstrates collaborative editing animation. Project names link to the sources.
+-->
+
+---
+
 # What Happens After We Publish the Code?
 
 - Can someone else run and understand it?

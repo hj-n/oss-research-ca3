@@ -26,7 +26,7 @@ mdc: true
 <p class="presenters">Anton, Marcel, Hyeon, and Arvind</p>
 
 ---
-src: ./parts/introduction.md#1
+src: ./parts/introduction.md#1-2
 ---
 
 ---
@@ -34,7 +34,7 @@ src: ./parts/marcel.md#2-3
 ---
 
 ---
-src: ./parts/introduction.md#2-3
+src: ./parts/introduction.md#3-4
 ---
 
 ---
