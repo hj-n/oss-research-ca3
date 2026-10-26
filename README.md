@@ -35,10 +35,10 @@ Previews use port 3030 by default. To run alongside the combined deck, use `PORT
 | --- | --- | --- |
 | Anton | `parts/anton.md` | Title + content template |
 | Marcel | `parts/marcel.md` | Title + content template |
-| Hyeon | `parts/hyeon.md` | Title + seven slides adapted from the supplied ZADU PDF |
+| Hyeon | `parts/hyeon.md` | Title + ZADU/DR introduction + GitHub capture + seven source slides |
 | Arvind | `parts/arvind.md` | Title + content template |
 
-`slides.md` sets the cover and order: Anton → Marcel → Hyeon → Arvind. Each `src` includes every slide in that speaker's file. Add slides inside your own file using a line containing `---`; no edits to the master are needed. The deck contains 15 slides: the shared cover, a title + content template for each of Anton, Marcel, and Arvind, and a title + seven content slides for Hyeon. Each subdeck starts with a `part-title` block; replace its talk title and keep your name below it.
+`slides.md` sets the cover and order: Anton → Marcel → Hyeon → Arvind. Each `src` includes every slide in that speaker's file. Add slides inside your own file using a line containing `---`; no edits to the master are needed. The deck contains 17 slides: the shared cover, a title + content template for each of Anton, Marcel, and Arvind, and a title + nine content slides for Hyeon (ZADU/DR background, an actual GitHub screenshot, and the seven source slides). Each subdeck starts with a `part-title` block; replace its talk title and keep your name below it.
 
 ```md
 # One clear message
@@ -101,6 +101,7 @@ Arial must be installed on the presenting/exporting computer. It is available on
 ## Sources
 
 - Hyeon's content: `CA3_Open_Source_as_Research_ZADU_minimal.pdf`, provided by Hyeon. All seven slides are represented. The editable Vue components in `components/` preserve its timeline, download chart, and contribution/responsibility layout. Counts and PR references reproduce that source and are not live repository statistics. The source PDF is not redistributed in this repo.
+- ZADU/DR background: current project README at https://github.com/hj-n/zadu, checked 2026-10-26. The real GitHub capture is `public/hyeon/zadu-github.png`; visible counts reflect that capture date.
 - Hyeon title illustration: original embedded JPEG extracted unchanged from page 1 of the supplied ZADU PDF, saved as `public/hyeon/zadu-story.jpg`.
 - CA3 logo: copied from the existing local `/Users/hj/Downloads/ca3_logo.png`.
 - Slidev: https://sli.dev/ — [importing slides](https://sli.dev/features/importing-slides), [hosting](https://sli.dev/guide/hosting).

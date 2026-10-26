@@ -6,6 +6,37 @@
 
 ---
 
+# What is ZADU?
+
+- **Dimensionality reduction (DR):** mapping high-dimensional data into a 2D or 3D embedding.
+- **DR evaluation metrics:** measuring distortions in neighborhoods, distances, or clusters.
+- **ZADU:** a Python library bringing these measures together through one API.
+- **Goal:** evaluate and compare embeddings without reimplementing each metric.
+
+<p class="source">Source: <a href="https://github.com/hj-n/zadu">github.com/hj-n/zadu</a></p>
+
+<!--
+Source: live ZADU README, checked 2026-10-26, https://github.com/hj-n/zadu.
+DR reduces the number of dimensions; 2D/3D is the visualization use case here.
+Metrics compare a projection with the original data. Different measures assess
+local, cluster-level, or global structure; no single measure captures everything.
+Examples include trustworthiness/continuity and stress.
+-->
+
+---
+
+# ZADU on GitHub
+
+<p class="context"><a href="https://github.com/hj-n/zadu">github.com/hj-n/zadu</a></p>
+
+<img class="github-capture" src="/hyeon/zadu-github.png" alt="Actual ZADU GitHub repository page showing source code and the project description." />
+
+<p class="source">Repository screenshot · 26 October 2026</p>
+
+<!-- Real public GitHub page captured with Chromium; no UI elements or counts were edited. -->
+
+---
+
 <p class="speaker">Hyeon · ZADU</p>
 
 # Open source as research
