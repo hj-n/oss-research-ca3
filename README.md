@@ -38,7 +38,7 @@ Previews use port 3030 by default. To run alongside the combined deck, use `PORT
 | Hyeon | `parts/hyeon.md` | Title + ZADU/DR introduction + GitHub capture + seven source slides |
 | Arvind | `parts/arvind.md` | Title + content template |
 
-`slides.md` sets the shared opening and speaker order. The opening is: cover → “Software Carries Research Knowledge” → Marcel's “Why publish” and “Where to publish” → “What Happens After We Publish the Code?”. The two shared framing slides live in `parts/introduction.md`. Speaker sections then follow in the order Anton → Marcel → Hyeon → Arvind.
+`slides.md` sets the shared opening and speaker order. The opening is: cover → “Software Carries Research Knowledge” → Marcel's “Why publish” and “Where to publish” → “What Happens After We Publish the Code?” → “Why Bother Building and Maintaining It?”. The three shared framing slides live in `parts/introduction.md`. Speaker sections then follow in the order Anton → Marcel → Hyeon → Arvind.
 
 Each `src` includes the selected slides from a speaker's file. Marcel's slides 2–3 appear in the shared opening; his title and slides 4 onward appear in his section. Add slides inside your own file using a line containing `---`. Each subdeck starts with a `part-title` block.
 

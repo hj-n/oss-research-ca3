@@ -19,3 +19,17 @@ https://chi2026.acm.org/guide-to-a-successful-submission/
 - Who maintains it as users and needs change?
 
 <!-- Common questions to carry into the four speakers' project stories. -->
+
+---
+
+# Why Bother Building and Maintaining It?
+
+- Does useful software count as a research contribution?
+- What do we gain beyond the original paper?
+- Who does the work, and who gets the credit?
+- When is it worth continuing—and when should we stop?
+
+<!--
+Discussion frame: recognition of research contributions, long-term value,
+maintenance work and credit, and the decision to continue or stop.
+-->
