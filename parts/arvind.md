@@ -1,5 +1,5 @@
 <div class="part-title">
-<h1>Talk title</h1>
+<h1>Arvind's talk title</h1>
 <p>Arvind</p>
 </div>
 
