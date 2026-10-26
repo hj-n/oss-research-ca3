@@ -152,10 +152,21 @@ whose improvements are included in that release.
 
 # Keep Pushing.
 
-1. Find a real problem.
-2. Make something useful.
-3. Let contributions accumulate.
+<div class="keep-pushing">
+<ol class="keep-pushing-steps">
+<li>Find a real problem.</li>
+<li>Make something useful.</li>
+<li>Let contributions accumulate.</li>
+</ol>
+
+<img class="metric-usage-table" src="/hyeon/zadu-metric-usage-table.png" alt="Table of metric usage in 2024, 2025, and 2026: 6, 15, and 7 papers; mean reported metrics 6.00, 7.47, and 9.43; and at least two structural scopes in 33.3%, 66.7%, and 71.4% of papers." />
 
 <p class="note">Some contributions emerge only with time.</p>
+</div>
 
-<!-- Source: supplied PDF, slide 7. -->
+<!--
+Closing text: supplied original presentation, slide 7.
+Table: user-provided screenshot of Table 3 from the supplied ZADU manuscript.
+The sample is 28 papers citing ZADU and computing DR evaluation metrics;
+these trends do not establish causation or represent the field as a whole.
+-->
