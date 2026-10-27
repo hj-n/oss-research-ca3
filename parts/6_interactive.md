@@ -1,20 +1,14 @@
 <div class="part-title">
-<h1>Interactive Section</h1>
-<p>Hyeon, Anton, Marcel, and Arvind</p>
+<h1>Speaking Session</h1>
+<p>A project you would like to open source</p>
 </div>
 
 ---
 
-# Interactive Section
+# Speaking Session
 
-- Activity or discussion prompt
-- Instructions for the audience
-- Time and format
+<p class="context">Each person: introduce one project you would like to open source.</p>
 
-<p class="note">Draft placeholder · replace with your content</p>
-
-<!--
-This is an editing scaffold for the shared interactive section at the end of the talk.
-Add a new slide by inserting a line containing only three hyphens (---).
-Keep shared styles in styles/index.css.
--->
+- **Project:** What is it, and what would you share?
+- **Challenges:** What could make releasing or maintaining it difficult?
+- **Impact:** Who could benefit, and what could it enable?
