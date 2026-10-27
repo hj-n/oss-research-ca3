@@ -5,37 +5,6 @@
 
 ---
 
-# Document Your Code
-
-- Making code available is not the same as making it accessible
-- Document your code with a `README.md` file
-- At a bare minimum, explain the requirements and how to install and run the code
-- Ideally, also explain the architecture, the design choices, and why the system works as it does
-
----
-
-# Make Your Code Ready for Agents
-
-- Add an `AGENTS.md` file so readers can explore your code with AI agents
-- Other options are agent skills or an `llms.txt` file
-
----
-
-# Licensing Your Code
-
-- Can become tricky when building on top of other open-source projects
-- Common permissive options include MIT and Apache 2.0
-
----
-
-# Keep Your Code Alive
-
-- Open-source code is not always a one-time effort
-- Some projects are reused by other researchers and require maintenance
-- Make clear in the documentation whether the code is actively maintained
-
----
-
 # Marcel’s Experiences So Far
 
 - 2021 — Codestrates v2 (with CAVI)

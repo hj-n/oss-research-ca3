@@ -26,6 +26,7 @@ npm run speaker -- hyeon
 npm run speaker -- anton
 npm run speaker -- marcel
 npm run speaker -- arvind
+npm run speaker -- interactive
 ```
 
 Previews use port 3030 by default. To run alongside the combined deck, use `PORT=3031 npm run speaker -- hyeon` and open http://localhost:3031. The individual preview creates an ignored temporary entry in the repository root and removes it when stopped.
@@ -36,10 +37,11 @@ Previews use port 3030 by default. To run alongside the combined deck, use `PORT
 | --- | --- | --- |
 | Hyeon | `parts/2_hyeon.md` | Title + ZADU/DR introduction + GitHub capture + source slides + maintenance and contribution lessons |
 | Anton | `parts/3_anton.md` | Title + content template |
-| Marcel | `parts/4_marcel.md` | Title + documentation, agents, licensing, and maintenance + experiences and learnings |
+| Marcel | `parts/4_marcel.md` | Title + experiences + challenges and learnings |
 | Arvind | `parts/5_arvind.md` | Title + content template |
+| All | `parts/6_interactive.md` | Interactive section: title + placeholder |
 
-`slides.md` holds the cover and the order of the parts. After the cover comes the shared opening in `parts/1_introduction.md`: “Software Carries Research Knowledge” → “Research Software We Build On” (Vega-Lite, Webstrates, D3) → “Why Publish Your Research Software?” → “Where to Publish Your Research Software?” → “What Happens After We Publish the Code?” → “Why Bother Building and Maintaining It?”. Speaker sections then follow in the order Hyeon → Anton → Marcel → Arvind.
+`slides.md` holds the cover and the order of the parts. After the cover comes the shared opening in `parts/1_introduction.md`: “Software Carries Research Knowledge” → “Research Software We Build On” (Vega-Lite, Webstrates, D3) → “Why Publish Your Research Software?” → “Where to Publish Your Research Software?” → “Document Your Code” → “Make Your Code Ready for Agents” → “Licensing Your Code” → “What Happens After We Publish the Code?” → “Why Bother Building and Maintaining It?”. Speaker sections then follow in the order Hyeon → Anton → Marcel → Arvind, and the deck ends with the shared interactive section in `parts/6_interactive.md`.
 
 Each `src` imports a whole part file, and slides appear in the order they are written in that file. Add slides inside your own file using a line containing `---`. Each speaker subdeck starts with a `part-title` block.
 

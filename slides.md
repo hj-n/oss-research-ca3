@@ -44,3 +44,7 @@ src: ./parts/4_marcel.md
 ---
 src: ./parts/5_arvind.md
 ---
+
+---
+src: ./parts/6_interactive.md
+---
