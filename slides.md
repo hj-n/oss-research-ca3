@@ -25,6 +25,16 @@ mdc: true
 <p class="event">CA3 Retreat</p>
 <p class="presenters">Hyeon, Anton, Marcel, and Arvind</p>
 
+# Three Ways Research Meets Open Source 
+
+Find the right place and right format to put this in.
+
+| | What gets shared | Example |
+| --- | --- | --- |
+| **Of** the research | The systems a paper is about | Marcel · Codestrates, Varv, DashSpace… |
+| **For** the research | Infrastructure others do research with | Hyeon · ZADU |
+| **From** the research | Tools you built along the way | Arvind · GazePlayer, heed |
+
 ---
 src: ./parts/1_introduction.md
 ---
