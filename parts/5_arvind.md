@@ -5,7 +5,7 @@
 
 ---
 
-<p class="speaker">Arvind</p>
+<p class="speaker">#1</p>
 
 # Anything Can Be Open Source
 
@@ -15,7 +15,8 @@
 
 ---
 
-## Anecdote
+### An Anecdote
+
 # Matercolors: A Tiny Side Project
 
 <p class="context">2020 · built during COVID, before AI coding tools</p>
@@ -35,9 +36,21 @@ Sister repos: figma-matercolor, postcss-matercolor.
 
 ---
 
-# Ideas can come from Adjacent Work
+<p class="speaker">#2</p>
 
-<p class="context">Elicitation Lab · a TA need</p>
+# Ideas can come from adjacent work
+
+- Research is only part of the job, and the rest of it has problems too.
+- A task you keep repeating by hand is a sign a tool is missing.
+- Others in the same role face the same task, so your fix could be theirs too.
+
+---
+
+### An Anecdote
+
+# Elicitation Lab
+
+<p class="context">2026 · a TA need for requirements elicitation</p>
 
 - As a TA, I played the client so students could practise requirements elicitation for visualization design.
 - I wanted to rehearse that role myself.
@@ -46,6 +59,8 @@ Sister repos: figma-matercolor, postcss-matercolor.
 <p class="source">Source: <a href="https://github.com/arvindcheenu/elicitation-lab">github.com/arvindcheenu/elicitation-lab</a></p>
 
 ---
+
+### An Anecdote
 
 # Elicitation Lab: How It Works
 
@@ -63,9 +78,21 @@ latent need is reachable.
 
 ---
 
-# From Side Projects to Research Tools
+<p class="speaker">#3</p>
 
-<p class="context">GazePlayer · ETRA ETVIS ’26</p>
+# Not the Contribution? Still Worth Sharing
+
+- Building tools for your own evaluation feels like routine work.
+- To others, the tool can be the most reusable part of the project.
+- Releasing it costs some cleanup, and the tool lives on after the paper.
+
+---
+
+### An Anecdote
+
+# GazePlayer
+
+<p class="context">An evaluation tool made for a ETRA ETVIS ’26 short paper</p>
 
 - Study: mobile eye tracking of a four-person band in rehearsal.
 - I built my own player for it: synchronised videos, AOI annotation, gaze metrics.
@@ -84,11 +111,13 @@ in an optional gazeplayer.json, so nothing is tied to the band study.
 
 ---
 
-# Not the Contribution, Still Worth Sharing
+<p class="speaker">#4</p>
 
-- Building tools for your own evaluation feels like routine work.
-- To others, the tool can be the most reusable part of the project.
-- Releasing it costs some cleanup, and the tool lives on after the paper.
+# Can't find a contribution? Abstract and Extract it
+
+- Look across your papers, especially if part of your thesis: the code behind them can often share a core.
+- Pull out the parts you keep rebuilding and give them one general interface.
+- Together they can become a contribution that no single paper was.
 
 ---
 
