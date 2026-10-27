@@ -15,6 +15,7 @@
 
 ---
 
+## Anecdote
 # Matercolors: A Tiny Side Project
 
 <p class="context">2020 · built during COVID, before AI coding tools</p>

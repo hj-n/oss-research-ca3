@@ -25,15 +25,26 @@ mdc: true
 <p class="event">CA3 Retreat</p>
 <p class="presenters">Hyeon, Anton, Marcel, and Arvind</p>
 
+---
+
 # Three Ways Research Meets Open Source 
 
 Find the right place and right format to put this in.
 
-| | What gets shared | Example |
-| --- | --- | --- |
-| **Of** the research | The systems a paper is about | Marcel · Codestrates, Varv, DashSpace… |
-| **For** the research | Infrastructure others do research with | Hyeon · ZADU |
-| **From** the research | Tools you built along the way | Arvind · GazePlayer, heed |
+<div class="three-ways">
+  <div class="item">
+    <span class="title">Of the research</span>
+    <span class="text">Opensourcing systems a paper is about, with Marcel</span>
+  </div>
+  <div class="item">
+    <span class="title">For the research</span>
+    <span class="text">Opensourcing Infrastructure as research, with Hyeon</span>
+  </div>
+  <div class="item">
+    <span class="title">From the research</span>
+    <span class="text">Opensourcing Tools you built along the way, with Arvind</span>
+  </div>
+</div>
 
 ---
 src: ./parts/1_introduction.md
