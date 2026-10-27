@@ -2,7 +2,7 @@
 theme: default
 title: Open-Source Software for Research
 info: |
-  CA3 Retreat — Anton, Marcel, Hyeon, and Arvind
+  CA3 Retreat — Hyeon, Anton, Marcel, and Arvind
 class: cover
 layout: default
 colorSchema: light
@@ -23,32 +23,24 @@ mdc: true
 # Open-Source Software<br>for Research
 
 <p class="event">CA3 Retreat</p>
-<p class="presenters">Anton, Marcel, Hyeon, and Arvind</p>
+<p class="presenters">Hyeon, Anton, Marcel, and Arvind</p>
 
 ---
-src: ./parts/introduction.md#1-2
----
-
----
-src: ./parts/marcel.md#2-3
+src: ./parts/1_introduction.md
 ---
 
 ---
-src: ./parts/introduction.md#3-4
+src: ./parts/2_hyeon.md
 ---
 
 ---
-src: ./parts/anton.md
+src: ./parts/3_anton.md
 ---
 
 ---
-src: ./parts/marcel.md#1,4-
+src: ./parts/4_marcel.md
 ---
 
 ---
-src: ./parts/hyeon.md
----
-
----
-src: ./parts/arvind.md
+src: ./parts/5_arvind.md
 ---

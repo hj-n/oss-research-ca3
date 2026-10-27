@@ -87,9 +87,6 @@ Source: supplied PDF, slide 2. DR = dimensionality reduction.
 
 <!--
 The timeline, download bars, and growth figures recreate the original PDF graphic.
--->
-
-<!--
 Source: supplied PDF, slide 4. These are source-deck figures, not live counts.
 The comparison ranges are reproduced as supplied; do not imply annual totals for them.
 -->

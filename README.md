@@ -21,9 +21,10 @@ Open http://localhost:3030. Arrow keys move through the slides; `p` opens presen
 Preview only your own subdeck, with the same theme and styles:
 
 ```sh
+npm run speaker -- introduction
+npm run speaker -- hyeon
 npm run speaker -- anton
 npm run speaker -- marcel
-npm run speaker -- hyeon
 npm run speaker -- arvind
 ```
 
@@ -33,14 +34,14 @@ Previews use port 3030 by default. To run alongside the combined deck, use `PORT
 
 | Speaker | Edit this file | Current content |
 | --- | --- | --- |
-| Anton | `parts/anton.md` | Title + content template |
-| Marcel | `parts/marcel.md` | Title + content template |
-| Hyeon | `parts/hyeon.md` | Title + ZADU/DR introduction + GitHub capture + source slides + maintenance and contribution lessons |
-| Arvind | `parts/arvind.md` | Title + content template |
+| Hyeon | `parts/2_hyeon.md` | Title + ZADU/DR introduction + GitHub capture + source slides + maintenance and contribution lessons |
+| Anton | `parts/3_anton.md` | Title + content template |
+| Marcel | `parts/4_marcel.md` | Title + documentation, agents, licensing, and maintenance + experiences and learnings |
+| Arvind | `parts/5_arvind.md` | Title + content template |
 
-`slides.md` sets the shared opening and speaker order. The opening is: cover → “Software Carries Research Knowledge” → “Research Software We Build On” (Vega-Lite, Webstrates, D3) → Marcel's “Why publish” and “Where to publish” → “What Happens After We Publish the Code?” → “Why Bother Building and Maintaining It?”. The four shared framing slides live in `parts/introduction.md`. Speaker sections then follow in the order Anton → Marcel → Hyeon → Arvind.
+`slides.md` holds the cover and the order of the parts. After the cover comes the shared opening in `parts/1_introduction.md`: “Software Carries Research Knowledge” → “Research Software We Build On” (Vega-Lite, Webstrates, D3) → “Why Publish Your Research Software?” → “Where to Publish Your Research Software?” → “What Happens After We Publish the Code?” → “Why Bother Building and Maintaining It?”. Speaker sections then follow in the order Hyeon → Anton → Marcel → Arvind.
 
-Each `src` includes the selected slides from a speaker's file. Marcel's slides 2–3 appear in the shared opening; his title and slides 4 onward appear in his section. Add slides inside your own file using a line containing `---`. Each subdeck starts with a `part-title` block.
+Each `src` imports a whole part file, and slides appear in the order they are written in that file. Add slides inside your own file using a line containing `---`. Each speaker subdeck starts with a `part-title` block.
 
 ```md
 # One clear message
@@ -78,9 +79,9 @@ Give all four people collaborator access in that repository, or use forks. For e
 git switch main
 git pull --ff-only
 git switch -c slides/hyeon
-# Edit parts/hyeon.md, then preview.
+# Edit parts/2_hyeon.md, then preview.
 npm run build
-git add parts/hyeon.md
+git add parts/2_hyeon.md
 git commit -m "Update Hyeon's slides"
 git push -u origin slides/hyeon
 ```
@@ -107,7 +108,5 @@ Inter is loaded from Google Fonts in weights 400, 600, and 700. Presenting and e
 - Hyeon title illustration: original embedded JPEG extracted unchanged from page 1 of the supplied ZADU PDF, saved as `public/hyeon/zadu-story.jpg`.
 - CA3 logo: copied from the existing local `/Users/hj/Downloads/ca3_logo.png`.
 - Slidev: https://sli.dev/ — [importing slides](https://sli.dev/features/importing-slides), [hosting](https://sli.dev/guide/hosting).
-
-Marcel's shared “Why publish” and “Where to publish” slides remain in `parts/marcel.md`; the master imports them in the opening and excludes them from his later section, without duplication.
 
 The project illustrations in `public/examples/` come from the official research pages: [Vega-Lite](https://vis.mit.edu/pubs/vega-lite/), [Webstrates](https://webstrates.net/), and [D3](https://idl.uw.edu/papers/d3). They are shown unchanged in `components/ResearchSoftwareExamples.vue`; the Webstrates example is animated.

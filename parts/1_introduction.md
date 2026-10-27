@@ -29,6 +29,28 @@ Webstrates collaborative editing animation. Project names link to the sources.
 
 ---
 
+# Why Publish Your Research Software?
+
+- **Archiving and reproducibility**
+    - Research systems and prototypes often have a lifespan of only a few months
+    - Open-sourcing the code keeps it available for future researchers to build on
+- **Transparency and shared learning**
+    - Others can inspect how a prototype or algorithm was implemented
+    - Others can learn from your code and approaches
+
+---
+
+# Where to Publish Your Research Software?
+
+- **Supplementary material of the paper**
+    - For fixed snapshots of the code
+    - But it might be overlooked by other researchers
+- **GitHub, GitLab, Bitbucket, etc.**
+    - Especially useful for code that evolves over time
+    - Link back to your paper(s)
+
+---
+
 # What Happens After We Publish the Code?
 
 - Can someone else run and understand it?
