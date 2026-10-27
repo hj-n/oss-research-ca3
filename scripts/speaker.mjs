@@ -1,8 +1,8 @@
 import { readdir, readFile, writeFile, unlink } from 'node:fs/promises'
 import { spawn } from 'node:child_process'
 const speaker = process.argv[2]?.toLowerCase()
-if (!['introduction', 'anton', 'marcel', 'hyeon', 'arvind', 'interactive'].includes(speaker)) {
-  console.error('Usage: npm run speaker -- introduction|anton|marcel|hyeon|arvind|interactive')
+if (!['introduction', 'marcel', 'hyeon', 'arvind', 'interactive'].includes(speaker)) {
+  console.error('Usage: npm run speaker -- introduction|marcel|hyeon|arvind|interactive')
   process.exit(1)
 }
 // Reuse the master configuration so individual decks share the exact design.

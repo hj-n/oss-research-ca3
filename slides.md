@@ -55,10 +55,6 @@ src: ./parts/2_hyeon.md
 ---
 
 ---
-src: ./parts/3_anton.md
----
-
----
 src: ./parts/4_marcel.md
 ---
 
