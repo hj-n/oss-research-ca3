@@ -203,17 +203,3 @@ heed's README has a "Tested" section that also lists what was not tested
 (real phone, real eye movement, summary on a real GPU, Firefox). It ships
 MediaPipe and WebLLM under vendor/ with their Apache 2.0 license noted.
 -->
-
----
-
-# Showcase: Things I Vibe-Coded
-
-| Project | What it does |
-| --- | --- |
-| [heed](https://heed.arvindchee.nu) | Attention-aware toolkit for any web page |
-| [Elicitation Lab](https://github.com/arvindcheenu/elicitation-lab) | Persona → offline elicitation simulator |
-| [Scifig](https://scifig.arvindchee.nu/) | CHI-style figure and teaser generator |
-| [habitat.css](http://arvindchee.nu/habitat.css/) | CSS that adapts to room light and color |
-| [Paper Spatializer](https://paper-spatializer.vercel.app) | Navigate a paper's source files in space |
-
-<!-- TODO(Arvind): confirm these are the projects you want to show. -->
