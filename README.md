@@ -37,7 +37,7 @@ Previews use port 3030 by default. To run alongside the combined deck, use `PORT
 | Hyeon | `parts/2_hyeon.md` | Title + ZADU/DR introduction + GitHub capture + source slides + maintenance and contribution lessons |
 | Marcel | `parts/4_marcel.md` | Title + documentation, agents, licensing + experiences + challenges and learnings |
 | Arvind | `parts/5_arvind.md` | Title + content template |
-| All | `parts/6_interactive.md` | Speaking Session: groups of 4–5 discuss projects, challenges, and impact |
+| All | `parts/6_interactive.md` | Speaking Session: groups of 4–5 jointly identify 1–2 research projects to open source and discuss challenges and impact |
 
 `slides.md` holds the cover and the order of the parts. After the cover comes the shared opening in `parts/1_introduction.md`: “Software Carries Research Knowledge” → “Research Software We Build On” (Vega-Lite, Webstrates, D3) → “Why Publish Your Research Software?” → “Where to Publish Your Research Software?” → “What Happens After We Publish the Code?” → “Why Bother Building and Maintaining It?”. Speaker sections then follow in the order Hyeon → Marcel → Arvind, and the deck ends with the Speaking Session in `parts/6_interactive.md`.
 

@@ -9,10 +9,8 @@
 
 <p class="context">Form groups of 4–5 people.</p>
 
-Take turns introducing one project you would like to open source.
+Together, identify 1–2 projects from our research that could be open sourced.
 
-- **Project:** What is it, and what would you share?
-- **Challenges:** What could make releasing or maintaining it difficult?
-- **Impact:** Who could benefit, and what could it enable?
-
-<p class="note">Discuss each project together.</p>
+- **Projects:** What could we open source, and which parts would we share?
+- **Challenges:** What would make releasing and maintaining them difficult?
+- **Impact:** Who could benefit, and what could this enable?
