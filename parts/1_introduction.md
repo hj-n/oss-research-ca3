@@ -50,29 +50,6 @@ Webstrates collaborative editing animation. Project names link to the sources.
 
 ---
 
-# Document Your Code
-
-- Document your code with a `README.md` file
-- At a bare minimum, explain the requirements and how to install and run the code
-- Ideally, also explain the architecture, the design choices, and why the system works as it does
-- Make clear whether the code is actively maintained
-
----
-
-# Make Your Code Ready for Agents
-
-- Add an `AGENTS.md` file so readers can explore your code with AI agents
-- Other options are agent skills or an `llms.txt` file
-
----
-
-# Licensing Your Code
-
-- Can become tricky when building on top of other open-source projects
-- Common permissive options include MIT and Apache 2.0
-
----
-
 # What Happens After We Publish the Code?
 
 - Can someone else run and understand it?

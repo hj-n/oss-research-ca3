@@ -5,6 +5,29 @@
 
 ---
 
+# Document Your Code
+
+- Document your code with a `README.md` file
+- At a bare minimum, explain the requirements and how to install and run the code
+- Ideally, also explain the architecture, the design choices, and why the system works as it does
+- Make clear whether the code is actively maintained
+
+---
+
+# Make Your Code Ready for Agents
+
+- Add an `AGENTS.md` file so readers can explore your code with AI agents
+- Other options are agent skills or an `llms.txt` file
+
+---
+
+# Licensing Your Code
+
+- Can become tricky when building on top of other open-source projects
+- Common permissive options include MIT and Apache 2.0
+
+---
+
 # Publishing Systems after the Paper
 
 - 2021 — Codestrates v2 (with CAVI)
