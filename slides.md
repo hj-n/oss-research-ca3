@@ -33,12 +33,12 @@ Find the right place and right format to put this in.
 
 <div class="three-ways">
   <div class="item">
-    <span class="title">Of the research</span>
-    <span class="text">Opensourcing systems a paper is about, with Marcel</span>
+    <span class="title">As the research</span>
+    <span class="text">Opensourcing Infrastructure as research, with Hyeon</span>
   </div>
   <div class="item">
-    <span class="title">For the research</span>
-    <span class="text">Opensourcing Infrastructure as research, with Hyeon</span>
+    <span class="title">Of the research</span>
+    <span class="text">Opensourcing systems a paper is about, with Marcel</span>
   </div>
   <div class="item">
     <span class="title">From the research</span>
