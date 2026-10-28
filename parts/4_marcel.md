@@ -1,11 +1,11 @@
 <div class="part-title">
-<h1>Marcel’s Section</h1>
-<p>A Braindump</p>
+<h1>Open Source of the Research</h1>
+<p>Marcel</p>
 </div>
 
 ---
 
-# Marcel’s Experiences So Far
+# Publishing Systems after the Paper
 
 - 2021 — Codestrates v2 (with CAVI)
 - 2022 — Varv (with CAVI)
